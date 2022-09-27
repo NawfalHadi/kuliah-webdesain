@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Poppins"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Contact Form</title>
+	</head>
+	<body>
+		<h1>Contact Form</h1>
+		<form action="" method="post">
+			<label for="name">Name : * </label>
+			<input id="name" title="name" type="text" value="" />
+			<label for="email">Email : *</label>
+			<input id="email" title="email" type="email" value="" />
+			<label for="msg">Message: *</label>
+			<textarea id="msg" title="msg" value=""></textarea>
+			<label for="ask">Fill all required *</label>
+			<button
+				onclick="checkForm()"
+				name="submit"
+				type="button"
+				id="submit"
+			>
+				SUBMIT
+			</button>
+		</form>
+		<script src="script.js"></script>
+	</body>
+</html>
