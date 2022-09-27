@@ -1,0 +1,9 @@
+* {
+	font-family: "Poppins";
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 25vw;
+}
